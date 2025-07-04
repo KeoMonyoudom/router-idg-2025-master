@@ -5,7 +5,7 @@
                 class="rounded-2xl border border-indigo-600 p-6 shadow-xs ring-1 ring-indigo-600 sm:order-last sm:px-8 lg:p-12">
                 <div class="text-center">
                     <h2 class="text-lg font-medium text-gray-900">
-                        Pro
+                        Pro2
                         <span class="sr-only">Plan</span>
                     </h2>
 

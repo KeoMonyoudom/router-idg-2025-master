@@ -5,7 +5,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Kantumruy Pro', 'sans-serif'], // this overrides Tailwind's default
+                sans: ['Roboto', 'Kantumruy Pro', 'sans-serif'], // this overrides Tailwind's default
+                moul: ['Roboto', 'Moul', 'sans-serif']
             },
         },
     },

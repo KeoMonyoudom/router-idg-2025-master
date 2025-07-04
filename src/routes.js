@@ -10,7 +10,8 @@ import Project from '@/pages/Project.vue'
 import ProjectPage from '@/pages/ProjectPage.vue'
 import Registration from './pages/Registration.vue'
 import User from './pages/User.vue'
-import Formkhmer from './pages/Formkhmer.vue'
+import Upload from './pages/Upload.vue'
+import FileView from './pages/FileView.vue'
 
 const routes = [
     { path: '/', component: Home },
@@ -24,7 +25,8 @@ const routes = [
         ]
     },
     { path: '/project', component: Project },
-    { path: '/formkhmer', component: Formkhmer },
+    { path: '/services', component: Upload },
+    { path: '/files', component: FileView },
     { path: '/project/:name', name: 'ProjectDetail', component: ProjectPage, props: true },
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ]
